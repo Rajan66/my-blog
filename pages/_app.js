@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Nav />
       <Head>
-        <title>P-Blog | Home</title>
+        <title>P-Blog</title>
       </Head>
       <ToastContainer />
       <Component {...pageProps} />
