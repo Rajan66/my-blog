@@ -1,14 +1,26 @@
 import Link from "next/link";
 import Feed from "@components/Feed";
-import { Inter } from "next/font/google";
-import Head from "next/head";
-import Nav from "@components/Nav";
 
-const inter = Inter({ subsets: ["latin"] });
+export async function getStaticProps() {
+  try {
+    const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+    const posts = await res.json();
+    return {
+      props: {
+        posts,
+      },
+    };
+  } catch (error) {
+    console.error("Error fetching posts:", error);
+    return {
+      props: {
+        posts: [],
+      },
+    };
+  }
+}
 
-
-
-export default function Home() {
+export default function Home({ posts }) {
   return (
     <>
       <section className="w-full flex-center flex-col">
@@ -30,7 +42,7 @@ export default function Home() {
         </Link>
 
         <h1 className="head_text mb-[30px] italic">Best blogs of the week</h1>
-        <Feed />
+        <Feed posts={posts} />
       </section>
     </>
   );

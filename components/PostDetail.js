@@ -32,7 +32,6 @@ const PostDetail = ({ post }) => {
                 <br />
                 <div className="mt-5 text-gray-600 sm:text-lg max-w-4xl text-md">
                     {post.body}
-                    {post.body}{post.body}
                 </div>
             </div>
         </div>

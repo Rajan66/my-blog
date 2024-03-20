@@ -1,19 +1,11 @@
 "use client"
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Nav = () => {
     const [toggleDropdown, setToggleDropdown] = useState(false);
-    const handleDropdownClick = () => {
-        console.log("Dropdown clicked");
-        setToggleDropdown((prev) => !prev);
-    };
 
-    const handleLinkClick = () => {
-        console.log("Link clicked");
-        setToggleDropdown(false);
-    };
     return (
         <nav className="flex-between w-full mb-8 pt-3 px-10 mt-5 ">
             <Link href="/" className="flex gap-2 flex-center">

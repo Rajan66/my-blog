@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-
 import Form from "@components/Form";
 import { Bounce, toast } from "react-toastify";
 
@@ -30,7 +29,6 @@ const Contact = () => {
             message: "",
         });
     };
-
     return <Form post={post} setPost={setPost} handleSubmit={createMessage} />;
 };
 

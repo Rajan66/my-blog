@@ -5,7 +5,6 @@ import Nav from '@components/Nav'
 import Head from "next/head";
 import Footer from "@components/Footer";
 
-
 export default function App({ Component, pageProps }) {
   return (
     <>

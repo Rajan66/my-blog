@@ -27,9 +27,9 @@ export const getStaticProps = async (context) => {
 
 const Post = ({ post }) => {
     return (
-       <>
-       <PostDetail post={post}/>
-       </>
+        <>
+            <PostDetail post={post} />
+        </>
     )
 }
 
