@@ -6,7 +6,7 @@ const Form = ({ post, setPost, handleSubmit }) => {
             </h1>
             <form
                 onSubmit={handleSubmit}
-                className="mt-10 w-full max-w-2xl flex flex-col gap-7 glassmorphism"
+                className="mt-10 w-full max-w-2xl flex flex-col gap-7 form_area"
             >
                 <label>
                     <span className="font-satoshi font-semibold text-base text-gray-700">
