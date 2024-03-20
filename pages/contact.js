@@ -12,6 +12,12 @@ const Contact = () => {
 
     const createMessage = async (e) => {
         e.preventDefault();
+
+        if (post.name.trim() === "" || post.message.trim()==="") { // Check if field is empty or contains only spaces
+            toast.error("Field cannot be empty");
+            return; 
+        }
+
         toast.success("Message delivered", {
             position: "top-right",
             autoClose: 5000,
