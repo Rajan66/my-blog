@@ -29,7 +29,7 @@ export default function Home() {
           View All Posts
         </Link>
 
-        <h1 className="head_text mb-[30px] italic">Best blog of the week</h1>
+        <h1 className="head_text mb-[30px] italic">Best blogs of the week</h1>
         <Feed />
       </section>
     </>
