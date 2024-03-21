@@ -5,7 +5,7 @@
 
 1. To install and run MyBlog locally, follow these steps:
 ```bash
-git clone https://github.com/yourusername/myblog.git
+git clone https://github.com/Rajan66/my-blog.git
 ```
 2. Install Dependencies:
 ```bash
