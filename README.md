@@ -22,3 +22,6 @@ npm run dev
 - **Responsive Design:** Enjoy a seamless experience across various devices with a responsive design.
 - **Static Site Generation (SSG):** Blogs are displayed using Static Site Generation for optimal performance and SEO benefits.
 - **Tailwind CSS:** UI is styled using Tailwind CSS for flexible and customizable design.
+- **JSONPlaceholder:** Utilizes mock data from JSONPlaceholder(https://jsonplaceholder.typicode.com) to simulate real posts and demonstrate app functionality.
+
+**You can view the live app [here](https://my-blog-48.vercel.app/)
