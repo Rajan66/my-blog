@@ -1,4 +1,4 @@
-####This is a simple, responsive personal blog app built using React and Next.js
+#### This is a simple, responsive personal blog app built using React and Next.js
 
 ## Getting Started
 
