@@ -24,4 +24,4 @@ npm run dev
 - **Tailwind CSS:** UI is styled using Tailwind CSS for flexible and customizable design.
 - **JSONPlaceholder:** Utilizes mock data from JSONPlaceholder(https://jsonplaceholder.typicode.com) to simulate real posts and demonstrate app functionality.
 
-**You can view the live app [here](https://my-blog-48.vercel.app/)
+**You can view the live app [here](https://my-blog-48.vercel.app/)**
